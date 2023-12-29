@@ -18,5 +18,8 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'no-unused-vars': 'off',
+    'no-console': 'off',
+    'require-atomic-updates': 'off',
+    'no-undef': 'warn',
   },
 };
