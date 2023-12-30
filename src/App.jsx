@@ -7,7 +7,7 @@ import './index.css';
 
 function App() {
   return (
-    <div>
+    <div className="bg-white dark:bg-gray-900">
       <Header />
       <AllRoutes />
       <Footer />
