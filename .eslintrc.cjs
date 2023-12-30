@@ -21,5 +21,6 @@ module.exports = {
     'no-console': 'off',
     'require-atomic-updates': 'off',
     'no-undef': 'warn',
+    'react/prop-types': 0,
   },
 };
