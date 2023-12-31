@@ -7,8 +7,7 @@ const ErrorPage = () => {
     <div className="h-screen flex justify-center flex-col items-center p-4">
       <img src={ErrorImage} alt="ErrorImage" className="w-full max-w-md" />
       <div className="mb-0.5">
-        <Button to={'/'} text={'Back'} />
-        <Button to={'/'} text={'Homepage'} />
+        <Button to={'/'} text={'Back to Homepage'} />
       </div>
     </div>
   );

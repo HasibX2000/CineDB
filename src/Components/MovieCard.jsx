@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
     ? `https://image.tmdb.org/t/p/w500/${poster_path}`
     : Backdrop;
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-900">
       <Link to={`/movie/${id}`}>
         <img className="rounded-t-lg" src={thumbNail} alt="" />
       </Link>

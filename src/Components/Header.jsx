@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="bg-white border-gray-200 dark:bg-gray-900 mb-5">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <NavLink
             to="/"
@@ -43,16 +43,6 @@ const Header = () => {
             >
               {darkMode ? (
                 <svg
-                  id="theme-toggle-dark-icon"
-                  className=" w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-                </svg>
-              ) : (
-                <svg
                   id="theme-toggle-light-icon"
                   className=" w-5 h-5"
                   fill="currentColor"
@@ -64,6 +54,16 @@ const Header = () => {
                     fillRule="evenodd"
                     clipRule="evenodd"
                   ></path>
+                </svg>
+              ) : (
+                <svg
+                  id="theme-toggle-dark-icon"
+                  className=" w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
                 </svg>
               )}
             </button>
