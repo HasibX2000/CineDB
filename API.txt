@@ -28,3 +28,4 @@ Search
 https://api.themoviedb.org/3/movie/search?api_key=add348cc8b615e9c7b23e622c3d26db8&query={movie_name}
 
 
+http://localhost:5173/

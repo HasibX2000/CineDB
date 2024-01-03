@@ -22,6 +22,9 @@ const MovieDetails = () => {
     ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
     : Backdrop;
 
+  useEffect(() => {
+    document.title = `${movie.title} | CineDB`;
+  });
   return (
     <main>
       <section className="flex justify-around flex-col md:flex-row">

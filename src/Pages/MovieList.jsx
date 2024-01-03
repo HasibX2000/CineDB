@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import MovieCard from '../Components/MovieCard';
 import useFetch from '../hooks/useFetch';
 
-const MovieList = ({ apiPath }) => {
+const MovieList = ({ apiPath, title }) => {
   const { data: movies } = useFetch(apiPath);
+  useEffect(() => {
+    document.title = `${title} | CineDB`;
+  });
 
   return (
     <main>
